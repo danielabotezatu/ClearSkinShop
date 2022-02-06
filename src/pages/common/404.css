@@ -1,0 +1,43 @@
+main {
+  height: 700px;
+}
+
+#errorcontainer {
+  width: 70%;
+  height: 70%;
+  display: flex;
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 16%;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  background: url('./p404.png'), #151729;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 1);
+}
+
+#errorcontainer .errorcontent {
+  max-width: 600px;
+  text-align: center;
+}
+
+#errorcontainer .errorcontent h2 {
+  font-size: 800%;
+  text-emphasis-color: white;
+  line-height: 1em;
+}
+
+#errorcontainer .errorcontent h4 {
+  position: relative;
+  font-size: 200%;
+  margin-bottom: 20px;
+
+  font-weight: 300;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+#errorcontainer #errorcontent p {
+  color: #fff;
+  font-size: 3rem;
+}
